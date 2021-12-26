@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma a Cafe</title>
+    <!-- fuente de enlace cdn -->
+    <link rel="stylescheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- fuente de estilos -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- fuente de iconos -->
+    <script src="https://kit.fontawesome.com/59526a22ad.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header seccion -->
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="imagenes/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home" class="activo">Home</a>
+            <a href="views/galeria.html">Galeria</a>
+            <a href="views/presupuesto.html">Presupuesto</a>
+            <a href="../views/contacto.html">Contactos</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="seach-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imagenes/cart-item1.png" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">€15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imagenes/cart-item2.png" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">€15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imagenes/cart-item3.png" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">€15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="imagenes/cart-item4.png" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">€15.99</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+    </header>
+    <!-- Home seccion -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Un cafe fresco cada mañana</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio
+                tempora reiciendis.</p>
+            <a href="#" class="btn"> Disfrutalo Ahora</a>
+        </div>
+    </section>
+
+    <!-- About seccion -->
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>QUIENES </span>SOMOS</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="imagenes/about.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>¿Qué hace que nuestro café sea especial?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora
+                    ipsum fuga alias quae
+                    ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil
+                    voluptas culpa! Neque
+                    consectetur obcaecati sapiente?</p>
+                <a href="#" class="btn">Saber mas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu seccion -->
+    <section class="menu" id="menu">
+        <h1 class="heading">café <span>menú</span> </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="imagenes/menu1.png" alt="">
+                <h3>Delicioso y Saludable</h3>
+                <div class="price">€7.99 <span>9.99</span></div>
+
+            </div>
+            <div class="box">
+                <img src="imagenes/menu2.png" alt="">
+                <h3>Delicioso y Saludable</h3>
+                <div class="price">€7.99 <span>9.99</span>></div>
+
+            </div>
+            <div class="box">
+                <img src="imagenes/menu3.png" alt="">
+                <h3>Delicioso y Saludable</h3>
+                <div class="price">€7.99 <span>9.99</span></div>
+
+            </div>
+            <div class="box">
+                <img src="imagenes/menu4.png" alt="">
+                <h3>Delicioso y Saludable</h3>
+                <div class="price">€7.99 <span>9.99</span></div>
+
+            </div>
+            <div class="box">
+                <img src="imagenes/menu5.png" alt="">
+                <h3>Delicioso y Saludable</h3>
+                <div class="price">€7.99 <span>9.99</span></div>
+
+            </div>
+            <div class="box">
+                <img src="imagenes/menu6.png" alt="">
+                <h3>Delicioso y Saludable</h3>
+                <div class="price">€7.99 <span>9.99</span></div>
+
+            </div>
+        </div>
+    </section>
+    <!-- productos seccion -->
+    <section class="products" id="products">
+        <h1 class="heading">Productos</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="imagenes/product-1.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Cafe Tostado</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€15.99<span>20.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="imagenes/product-2.png" alt="" >
+                </div>
+
+                <div class="content">
+                    <h3>Cafe Tostado</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€15.99<span>20.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="imagenes/product-3.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Cafe Tostado</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€15.99<span>20.99</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review seccion -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> comentario <span>clientes</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="imagenes/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                    nobis?
+                    Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
+                </p>
+                <img src="imagenes/pic1.jpg" class="user" alt="">
+                <h3>Maria Lopez </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                    nobis?
+                    Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
+                </p>
+                <img src="imagenes/pic2.jpg" class="user" alt="">
+                <h3>Paul Ruiz</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                    nobis?
+                    Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
+                </p>
+                <img src="imagenes/pic3.jpg" class="user" alt="">
+                <h3>Yuli Rivas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- blogs Noticias seccion -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> Noticias <span>Cafeteras</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a class="title">Beneficios de salud del café</a>
+                <div class="image">
+
+                    <img src="imagenes/blog-1.jpeg" alt="">
+
+                </div>
+
+                <button onclick="ajax_get_json()" class="btn">Leer articulo</button>
+
+            </div>
+
+            <div class="box">
+                <a class="title">Datos interesantes sobre el café</a>
+                <div class="image">
+                    <img src="imagenes/blog-2.jpeg" alt="">
+                </div>
+                <button onclick="ajax_get_json2()" class="btn">Leer articulo</button>
+
+
+            </div>
+            <div class="box">
+                <a class="title">Beneficios y propiedades del café verde</a>
+                <div class="image">
+                    <img src="imagenes/blog-3.jpeg" alt="">
+                </div>
+                <button onclick="ajax_get_json3()" class="btn">Leer articulo</button>
+            </div>
+
+        </div>
+        <div id="noti1" class="artic"></div>
+        <div id="noti2" class="artic"></div>
+        <div id="noti3" class="artic"></div>
+
+    </section>
+    <!-- footer seccion  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="dir">Direccion <span>C/puerta del sol 7 C.P. 28013</span> </div>
+
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="views/avisolegal.html">Aviso Legal</a>
+
+        </div>
+
+        <div class="credit">creado por <span>Anderson Murillo</span> | all rights reserved</div>
+
+    </section>
+
+    <!-- Enlaces de archivos JS  -->
+    <script src="js/scriphome.js"></script>
+    <script src="js/noticias.js"></script>
+
+
+</body>
+
+</html>
